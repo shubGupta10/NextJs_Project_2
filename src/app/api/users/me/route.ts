@@ -6,6 +6,7 @@ import { connect } from "@/dbConfig/dbConfig";
 
 connect();
 
+//Profile Backend Part
 export async function GET(request:NextRequest){
 
     try {
