@@ -2,6 +2,7 @@ import nodemailer from 'nodemailer'
 import bcryptjs from 'bcryptjs'
 import User from '@/models/UserModel'
 
+//send email to current user
 export const sendEmail = async ({ email, emailType, userId }: any) => {
     try {
 
